@@ -1,0 +1,52 @@
+.expense-item {
+  background: #ffffff;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 15px;
+  align-items: center;
+}
+
+.expense-item h3 {
+  margin: 0;
+  color: #2d3748;
+}
+
+.expense-item p {
+  margin: 4px 0;
+  color: #4a5568;
+}
+
+.expense-item button {
+  margin-right: 8px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.expense-item button:first-of-type {
+  background: #3182ce;
+  color: white;
+}
+
+.expense-item button:last-of-type {
+  background: #e53e3e;
+  color: white;
+}
+
+.expense-item button:hover {
+  opacity: 0.9;
+}
+
+/* Editing mode inputs */
+.expense-item input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e0;
+  margin-bottom: 6px;
+}
