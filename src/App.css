@@ -49,3 +49,61 @@ h1 {
 .total h2 {
   margin: 0;
 }
+
+/* =========================
+   GLOBAL RESPONSIVE FIXES
+========================= */
+
+@media (max-width: 768px) {
+
+  /* App container */
+  .app-container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .total {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  /* Logout button */
+  .logout-btn {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  /* Form layout */
+  form {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  form button {
+    grid-column: span 1;
+    width: 100%;
+  }
+
+  /* Expense item */
+  .expense-item {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .expense-item button {
+    width: 100%;
+    margin-bottom: 6px;
+  }
+
+  .expense-item h3 {
+    font-size: 16px;
+  }
+
+  .expense-item p {
+    font-size: 14px;
+  }
+}
